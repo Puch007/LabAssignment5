@@ -9,6 +9,11 @@ import { FooterComponent } from './footer/footer.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialDesignModule} from '../material-design/material-design.module';
+import { HomeComponent } from './home/home.component';
+import {AppRoutes} from './app.routes';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { MainFooterComponent } from './main-footer/main-footer.component';
     FooterComponent,
     MainHeaderComponent,
     MainContentComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    HomeComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MaterialDesignModule,
+    AppRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]

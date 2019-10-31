@@ -16,3 +16,7 @@
       margin: 3px;
       border: 1px dashed rgb(0, 190, 10);
   }
+  .main-outlet{
+      display: none; 
+  }
+  

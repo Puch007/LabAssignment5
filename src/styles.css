@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,3 +17,26 @@ html, body {
   margin: 3px;
       border: 1px dashed rgb(0, 190, 10);
   }
+      .main-container {
+        display: grid;
+        height: 100%;
+        grid-template-rows: 1fr 12fr 1fr;
+
+  }.row-one ,.row-two, .row-three{
+        display: grid;
+        grid-template-columns: 1fr 6fr 1fr;
+        height: 100%;
+        width: 100%
+    }
+    .row-two {
+        background-color:rgb(109, 24, 189);
+        margin: 3px;
+        border: 1px dashed rgb(0, 190, 10);
+    }
+    .row-three {}
+    .container-padding {
+         background-color:rgb(109, 24, 189);
+        margin: 3px;
+        border: 1px dashed rgb(0, 190, 10);
+    }
+  
